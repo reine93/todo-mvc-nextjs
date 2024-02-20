@@ -10,18 +10,12 @@
       "id": "1bb4",
       "title": "Sastanak u 17:00",
       "body": "",
-      "completed": false
+      "completed": true
     },
     {
       "id": "1a0f",
       "title": "Nazovi!!!",
       "body": "091 123 123",
-      "completed": false
-    },
-    {
-      "id": "4437",
-      "title": "hiii",
-      "body": "bye",
       "completed": false
     }
   ]
