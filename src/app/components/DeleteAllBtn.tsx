@@ -21,7 +21,7 @@ function DeleteAllBtn( { todos, children }: { todos: TodoItem[]; children: any }
     onClick={deleteCompletedTodosAction}
     disabled={isPending}
   >
-    Delete completed todos
+    {children}
   </Button>
   )
 }
