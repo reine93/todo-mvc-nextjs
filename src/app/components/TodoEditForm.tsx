@@ -3,6 +3,7 @@ import { Button, Input } from "@nextui-org/react"
 import { TodoProps } from "../../../definitions"
 import { useState, ChangeEvent } from "react"
 import { updateTaskContent } from "@/actions"
+import Link from "next/link"
 
 export default function TodoEditForm({todo} : TodoProps) {
 
@@ -45,7 +46,8 @@ export default function TodoEditForm({todo} : TodoProps) {
               name="body"
             />
           </div>
-          <Button type='submit' className="mt-4">Submit</Button> 
+          <Button type='submit' className="mt-4">Submit</Button>
+          <Button as={Link} href="/">Go back</Button>
         </div>
       </form>
     </div>

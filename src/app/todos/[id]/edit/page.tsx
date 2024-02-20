@@ -2,8 +2,6 @@ import { getAllTodos, getTodo } from "@/actions"
 import { TodoEditPageProps, TodoItem } from "../../../../../definitions"
 import { notFound } from "next/navigation";
 import TodoEditForm from "@/app/components/TodoEditForm";
-import { unstable_noStore as noStore } from 'next/cache';
-
 
 export default async function EditTodo(props : TodoEditPageProps) {
 
@@ -17,6 +15,7 @@ export default async function EditTodo(props : TodoEditPageProps) {
     <>
       <TodoEditForm todo = {todo}/>
     </>
+
   )
 }
 

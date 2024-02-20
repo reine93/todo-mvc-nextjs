@@ -1,5 +1,6 @@
 import { Input, Button } from "@nextui-org/react"
 import { addTodo } from "@/actions"
+import Link from "next/link"
 
 export default function NewTodoPage() {
   return (
@@ -25,6 +26,7 @@ export default function NewTodoPage() {
             />
           </div>
           <Button type='submit' className="w-full mt-2">Submit</Button> 
+          <Button as={Link} href="/">Go back</Button>
         </div>
       </form>
     </div>

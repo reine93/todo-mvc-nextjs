@@ -2,8 +2,10 @@
 
 import { useTransition } from "react";
 import { TodoProps } from "../../../definitions";
-import { Button, Checkbox, Link } from "@nextui-org/react";
+import { Button, Checkbox } from "@nextui-org/react";
 import { updateTodoCompletion, deleteTodoTask } from "@/actions";
+import Link from "next/link";
+
 
 const TodoTask = ({ todo } : TodoProps) => {
   let [isPending, startTransition] = useTransition();
