@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": "a7d7",
+      "title": "Shopping",
+      "body": "Mlijeko Kruh Jabuke Banane Piletina Riba (losos) Jaja Sir cheddar Jogurt Maslac Čokolada Tjestenina Riža",
+      "completed": false
+    },
+    {
+      "id": "1bb4",
+      "title": "Sastanak u 17:00",
+      "body": "",
+      "completed": false
+    },
+    {
+      "id": "1a0f",
+      "title": "Nazovi!!!",
+      "body": "091 123 123",
+      "completed": false
+    },
+    {
+      "id": "4437",
+      "title": "hiii",
+      "body": "bye",
+      "completed": false
+    }
+  ]
+}
